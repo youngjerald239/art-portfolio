@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import {BsTwitter, BsLinkedin, BsGithub, BsInstagram} from 'react-icons/bs'
-import {FaItchIo} from 'react-icons/fa'
+import {SiKofi} from 'react-icons/si'
 
 const Footer = () => {
   return (
@@ -17,11 +17,9 @@ const Footer = () => {
       </ul>
 
       <div className='footer_socials'>
-        <a href="https://twitter.com/JeraldYoung19"><BsTwitter/></a>
+        <a href="https://twitter.com/ToriTooMuch"><BsTwitter/></a>
         <a href="https://www.linkedin.com/in/jerald-young-232aa720a/"><BsLinkedin/></a>
-        <a href="https://github.com/youngjerald239"><BsGithub/></a>
-        <a href="https://www.instagram.com/appen.jerald/"><BsInstagram/></a>
-        <a href="https://youngjerald.itch.io/"><FaItchIo/></a>
+        <a href="ko-fi.com/mystoriart"><SiKofi/></a>
       </div>
 
       <div className="footer_copyright">

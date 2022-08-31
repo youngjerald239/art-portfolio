@@ -1,15 +1,15 @@
 import React from 'react'
-import {BsLinkedin, BsGithub} from 'react-icons/bs'
-import {FaItchIo, FaTwitterSquare} from 'react-icons/fa'
+import {BsLinkedin} from 'react-icons/bs'
+import {FaTwitterSquare} from 'react-icons/fa'
+import {SiKofi} from 'react-icons/si'
 
 
 const HeaderSocials = () => {
   return (
     <div className="header_socials">
         <a href="https://www.linkedin.com/in/jerald-young-232aa720a/" target="blank"><BsLinkedin/></a>
-        <a href="https://github.com/youngjerald239" target="blank"><BsGithub/></a>
-        <a href="https://twitter.com/JeraldYoung19" target="blank"><FaTwitterSquare/></a>
-        <a href="https://youngjerald.itch.io/" target="blank"><FaItchIo/></a>
+        <a href="ko-fi.com/mystoriart" target="blank"><SiKofi/></a>
+        <a href="https://twitter.com/ToriTooMuch" target="blank"><FaTwitterSquare/></a>
     </div>
   )
 }
