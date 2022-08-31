@@ -25,7 +25,7 @@ const About = () => {
             <article className='about_card'>
               <GiAchievement className='about_icon'/>
               <h5>Experience</h5>
-              <small>Sketching<RiCustomerService2Fill/>Torso<MdOutlineSecurityUpdateWarning/>  Full body Character</small>
+              <small>Sketching<RiCustomerService2Fill/>Torso drawings<MdOutlineSecurityUpdateWarning/>Full body</small>
             </article>
             <article className='about_card'>
               <MdDraw className='about_icon'/>
