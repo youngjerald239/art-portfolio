@@ -43,10 +43,11 @@ const About = () => {
             <img src={ME} alt="about-me"/>
           </div>
             <p>
-              Hello, my name is Tori Mayo. I am a digital artist, and self taught. Cat person, Gamer, and a love for animation.
+              Hello, my name is MystoriArt. I am a digital artist, and self taught. 
+              Cat person, Gamer, and a love for animation.
               Having hobbies that delve into many different subjects, I am able to view and work on many different styles of art.
               Take a moment to view my artwork, and please let me know what you think. Leave a friendly comment, or donate to my Koffi.
-              
+
             </p>
 
             <a href="#contact">Let's Chat!</a>
