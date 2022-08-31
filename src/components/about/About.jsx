@@ -30,12 +30,12 @@ const About = () => {
             </article>
             <article className='about_card'>
               <FaDev className='about_icon'/>
-              <h5>DevTools</h5>
+              <h5>DigitalArt Tools</h5>
               <small><FaHtml5/><SiJavascript/><SiCsswizardry/><FaReact/><DiBootstrap/><SiPython/><DiRuby/></small>
             </article>
             <article className='about_card'>
               <GiGameConsole className='about_icon'/>
-              <h5>Video Game Developer</h5>
+              <h5>Timelaps</h5>
               <small><SiPython/><SiUnrealengine/><SiGodotengine/><DiUnitySmall/></small>
             </article>
           </div>
@@ -43,9 +43,10 @@ const About = () => {
             <img src={ME} alt="about-me"/>
           </div>
             <p>
-              Bringing graphic design and customer service skills into my work as a full-stack developer, 
-               I bring a diverse set of skills not many have. Collaborative and analytical,
-               I provide a unique perspective and focus on the user in all of my projects.
+              Hello, my name is Tori Mayo. I am a digital artist, and self taught. Cat person, Gamer, and a love for animation.
+              Having hobbies that delve into many different subjects, I am able to view and work on many different styles of art.
+              Take a moment to view my artwork, and please let me know what you think. Leave a friendly comment, or donate to my Koffi.
+              
             </p>
 
             <a href="#contact">Let's Chat!</a>
