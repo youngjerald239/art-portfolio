@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.png'
+import ME from '../../assets/me-about1.png'
+import ME2 from '../../assets/me3.png'
 import {GiAchievement, GiGameConsole} from 'react-icons/gi'
 import {FaDev, FaLaptopCode, FaHtml5, FaReact} from 'react-icons/fa'
 import {RiCustomerService2Fill} from 'react-icons/ri'
@@ -12,12 +13,12 @@ import {DiRuby, DiBootstrap, DiUnitySmall} from 'react-icons/di'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>About Me</h5>
+      <h2>Meet the Artist</h2>
       <div className="container about_container">
         <div className="about_me">
-          <div className="about_me-image">
-            <img src={ME} alt="about-me"/>
+          <div className="about_me2-image">
+            <img src={ME2} alt="about-me2"/>
           </div>
         </div>
         <div className="about_content">
@@ -37,6 +38,9 @@ const About = () => {
               <h5>Video Game Developer</h5>
               <small><SiPython/><SiUnrealengine/><SiGodotengine/><DiUnitySmall/></small>
             </article>
+          </div>
+          <div className="about_me-image">
+            <img src={ME} alt="about-me"/>
           </div>
             <p>
               Bringing graphic design and customer service skills into my work as a full-stack developer, 
