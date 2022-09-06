@@ -6,7 +6,6 @@
 }
 
 .portfolio_item {
-    background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1rem;
     border: 1px solid transparent;
@@ -19,13 +18,14 @@
 }
 
 .portfolio_item-image {
-    border-radius: 1rem;
+    height: 100%;
 
 
 }
 
 .portfolio_item h3 {
     margin: 1.2rem 0 2rem;
+    background: cover;
 }
 
 .portfolio_item-cta {
